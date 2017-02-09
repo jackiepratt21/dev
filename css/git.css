@@ -1,0 +1,30 @@
+body {background: pink;
+	background-image: url("../img/heart.png");
+	background-size: 100%;
+
+	
+}
+
+h1 {
+	text-align: center;
+	font-family: "Marguaritas";
+	font-size: 500%;
+}
+
+p {
+	font-family: courier; 
+	line-height: 2.5em;
+	color: black;
+	font-size: 16px;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.6);
+	padding: 18px;
+}
+
+.center {
+	text-align: center;
+}
