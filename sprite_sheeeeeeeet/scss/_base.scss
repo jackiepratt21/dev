@@ -1,0 +1,64 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+body {
+	background: $bgcolor;
+	font-family: $copyfont;
+}
+
+h1, h2 {
+	font-family: $headfont;
+}
+
+header {
+	@include box;
+	@include centerme;
+	@include roundedcorners(60px);
+	h1 {
+		font-family: $headfont;
+		color: $headercolor;
+	}//end h1
+}//end header
+
+nav {
+	@include box();
+	@include roundedcorners(40px);
+	ul {
+		@include centerme;
+		li {
+				list-style: none;
+		display: inline-block;
+		margin-right: 20px; 
+		a{
+			font-family: $linkfont;
+		}
+	}//end li
+	}//end ul
+	
+}//end nav
+
+section {
+	@include box;
+	h2 {
+		font-family: $headfont;
+		color: headercolor;
+	}//end h2
+}//end section
+
+
+li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	a {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		span {
+			position: absolute;
+			top: -9999em;
+			left: -9999em;
+		}//span
+	}//a
+
+}//li

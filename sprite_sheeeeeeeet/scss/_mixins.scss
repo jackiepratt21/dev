@@ -1,0 +1,14 @@
+@mixin box() {
+	background: $boxcolor;
+	border: solid 2px $bordercolor;
+	padding: 10px 20px;
+}
+
+@mixin centerme() {
+	text-align: center;
+}
+
+@mixin roundedcorners($roundness) {
+	-webkit-border-radius: $roundness;
+	border-radius: $roundness;
+}

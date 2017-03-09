@@ -1,0 +1,35 @@
+
+body {background: pink;
+	background-image: url("../img/clouds.png");
+	background-size: 95% 300%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: "Pacifico";
+	font-size: 500%;
+}
+
+p {
+	font-family: "Farsan"; 
+	line-height: 2.5em;
+	font-size: 20px;
+
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+
+span {
+	color: rgb(229, 59, 232);
+}

@@ -1,0 +1,116 @@
+/* universal styles */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.centerme {
+	text-align: center;
+}
+
+/* global styles */
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+body {
+/* 	background: url('../img/bg-earth-spine.jpg') center center fixed no-repeat rgba(72, 126, 142, .8); */
+	background: url('../img/bg-earth-spine-big.jpg') center center fixed no-repeat rgba(72, 126, 142, .8); /*allows background image to stretch */
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+header, 
+section,
+footer {
+	background: rgba(255,255,255,0.8);
+	border: solid 2px rgba(0,0,0,0.8);
+	padding: 10px 15px;
+	margin-bottom: 20px;
+}
+
+header {
+	background: url('../img/float-on.png') center no-repeat rgba(255,255,255,0.8);
+	height: 122px;		
+}
+
+
+header h1 {	
+	position: absolute;
+	left: -999em;
+	top: -999em;
+	}
+
+h1, 
+h2,
+p {
+	margin-bottom: 10px;	
+}
+
+.twocolumn section {
+	width: 49%;
+}
+
+.threecolumn section {
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+}
+
+.threecolumn section:nth-of-type(3n) {
+	margin-right: 0px;
+}
+
+figure {
+	width: 60%;
+}
+
+figure img {
+	width: 100%;
+}
+
+/*@media query block medium tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768) {
+
+}/* end medium block*/
+
+/*@media query block small mobile*/
+@media only screen and (max-width: 480px) {
+	.twocolumn section, .threecolumn section, figure  {
+	width: 100%;
+	float: none; 
+	}	
+
+}/*end small block*/
+
+
+
+
+
+
+
+
+
+
+
