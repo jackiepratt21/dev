@@ -8,6 +8,7 @@ body {background: pink;
 
 h1 {
 	text-align: center;
+<<<<<<< HEAD
 	font-size: 500%;
 	font-family: 'Pacifico', cursive;
 
@@ -17,6 +18,15 @@ p {
 	
 	line-height: 2.5em;
 	font-family: 'Indie Flower', cursive;
+=======
+	font-family: "Marguaritas";
+	font-size: 500%;
+}
+
+p {
+	font-family: courier; 
+	line-height: 2.5em;
+>>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
 }
 
 .container {
@@ -32,7 +42,10 @@ a:link, a:visited, a:active {
 	color: black;
 	font-size: 20px;
 }
+<<<<<<< HEAD
 
 span {
 	color: rgb(229, 59, 232);
 }
+=======
+>>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a

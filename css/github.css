@@ -9,15 +9,25 @@ body {background: pink;
 
 h1 {
 	text-align: center;
+<<<<<<< HEAD
 	font-family: "Pacifico";
+=======
+	font-family: "Marguaritas";
+>>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
 	font-size: 500%;
 }
 
 p {
+<<<<<<< HEAD
 	font-family: "Farsan"; 
 	line-height: 2.5em;
 	font-size: 20px;
 
+=======
+	font-family: courier; 
+	line-height: 2.5em;
+	font-size: 20px;
+>>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
 }
 
 .container {
@@ -29,7 +39,13 @@ p {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 
 span {
 	color: rgb(229, 59, 232);
+=======
+a:link, a:visited, a:active {
+	color: black;
+	font-size: 20px;
+>>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
 }
