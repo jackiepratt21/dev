@@ -7,26 +7,26 @@ body {background: pink;
 
 h1 {
 	text-align: center;
-<<<<<<< HEAD
+
 	font-family: "Pacifico";
-=======
+
 	font-family: "Marguaritas";
->>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
+
 	font-size: 500%;
 }
 
 p {
-<<<<<<< HEAD
+
 	font-family: 'Farsan', cursive; 
 	line-height: 2.5em;
 	color: black;
 	font-size: 18px;
-=======
+
 	font-family: courier; 
 	line-height: 2.5em;
 	color: black;
 	font-size: 16px;
->>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
+
 }
 
 .container {
@@ -38,11 +38,11 @@ p {
 
 .center {
 	text-align: center;
-<<<<<<< HEAD
+
 }
 
 span {
 	color: rgb(229, 59, 232);
 =======
->>>>>>> 7b428ee61e2ca58c10c0f9688934611fb8e5e80a
+
 }
