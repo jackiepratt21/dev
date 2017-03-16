@@ -1,0 +1,36 @@
+@mixin box() {
+	
+	background: $boxcolor;
+	width: 80%;
+	float: left;
+	padding-left: 0.83%;
+	padding-right: 0.83%;
+	text-align: center;
+	padding: 0px 30px 20px 40px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-left: 100px;
+	justify-content: center;
+
+}
+
+@mixin lilbox() {
+	
+	flex: 1 1 0%;
+	flex-direction: column;
+	border: none;
+	overflow: hidden;
+	justify-content:center;
+	border-radius: 0;
+	padding: 10px;
+	float: left;
+}
+
+@mixin lillilbox() {
+	width: 95%;
+	height: 145px;
+	background: white;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 5px;
+}

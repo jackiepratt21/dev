@@ -5,6 +5,7 @@
  *    without disabling user zoom.
  */
 @import url("https://fonts.googleapis.com/css?family=Baloo|Muli|Nova+Mono");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -354,17 +355,59 @@ td,
 th {
   padding: 0; }
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.clearfix:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+.centerme {
+  text-align: center; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
 body {
   background: #4b498f; }
 
-h1, h2 {
-  text-color: #4b498f;
-  text-align: center; }
+header {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  width: 95%;
+  height: 145px;
+  background: white;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 5px; }
 
-p {
-  text-color: #75578F; }
+section {
+  margin-top: 30px; }
 
-nav, ul, li {
-  text-decoration: none; }
+a:active {
+  color: #4b498f; }
+
+img {
+  width: 250px;
+  height: 200px;
+  margin-left: 20px; }
+
+/*@media query block medium tablet*/
+/* end medium block*/
+/*@media query block small mobile*/
+@media only screen and (max-width: 480px) and (min-width: 1px) {
+  section, div, p {
+    max-width: 100%;
+    float: none; } }
+/*end small block*/
 
 /*# sourceMappingURL=main.css.map */

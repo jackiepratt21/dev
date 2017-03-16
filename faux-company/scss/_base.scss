@@ -1,0 +1,82 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+p {
+	font-color: $primarycolor;
+	font-family: $mainfont;
+}
+
+body {
+	background-color: $bgcolor;
+}
+
+h1 {
+	text-align: center;
+	font-family: $titlefont;
+	font-size: 300%;
+}
+
+h2 {
+	text-align: center;
+	font-family: $titlefont;
+	font-size: 200%;
+}
+
+
+section {
+	@include box();
+}
+
+.price {
+	color: $price;
+}
+nav {
+	text-align: center;
+	@include footer();
+li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 50px;
+	a {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		span {
+			position: absolute;
+			top: -9999em;
+			left: -9999em;
+		}//span
+	}//a
+
+}//li
+}//end nav
+
+/*@media query block medium tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768) {
+
+}/* end medium block*/
+
+/*@media query block small mobile*/
+@media only screen and (max-width: 480px) {
+	.twocolumn section, .threecolumn section, figure  {
+	width: 100%;
+	float: none; 
+	}	
+
+}/*end small block*/
+
+

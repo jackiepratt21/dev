@@ -1,0 +1,35 @@
+@mixin box() {
+	
+	background: $boxcolor;
+	border: solid 3px $bordercolor;
+	padding: 10px 20px;
+	max-width: 500px;
+	min-height: 451px;
+	margin-left: 150px;
+	text-align: center;
+	// display: inline-table;
+	float: left;
+	margin-bottom: 20px
+
+}
+
+
+
+@mixin flex {
+	display: -webkit-flex;
+	display: flex;
+}
+
+@mixin centerme() {
+	text-align: center;
+}
+
+@mixin footer() {
+	background: $footercolor;
+	border: solid 0.5px $bordercolor;
+	padding: 10px 20px;
+	max-width: 1104px;
+	height: 133px;
+	margin-left: 173px;
+
+}

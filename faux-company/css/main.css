@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif|Ranga");
+@import url("https://fonts.googleapis.com/css?family=Muli");
+.icon-sprite, .icon-dribbble, .icon-facebook, .icon-instagram, .icon-twitter {
+  background-image: url('../img/icon-s10dfa9afcb.png');
+  background-repeat: no-repeat;
+}
+
+.icon-dribbble {
+  background-position: 0 -100px;
+}
+.icon-dribbble:hover, .icon-dribbble.dribbble-hover {
+  background-position: 0 0;
+}
+
+.icon-facebook {
+  background-position: 0 -300px;
+}
+.icon-facebook:hover, .icon-facebook.facebook-hover {
+  background-position: 0 -200px;
+}
+
+.icon-instagram {
+  background-position: 0 -500px;
+}
+.icon-instagram:hover, .icon-instagram.instagram-hover {
+  background-position: 0 -400px;
+}
+
+.icon-twitter {
+  background-position: 0 -700px;
+}
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -600px;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+p {
+  font-color: #ff82b4;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+  background-color: #b4e7e8;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Ranga", cursive;
+  font-size: 300%;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Ranga", cursive;
+  font-size: 200%;
+}
+
+section {
+  background: rgba(205, 215, 232, 0.6);
+  border: solid 3px #c4d7e8;
+  padding: 10px 20px;
+  max-width: 500px;
+  min-height: 451px;
+  margin-left: 150px;
+  text-align: center;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: #ff6056;
+}
+
+nav {
+  text-align: center;
+  background: rgba(165, 176, 232, 0.5);
+  border: solid 0.5px #c4d7e8;
+  padding: 10px 20px;
+  max-width: 1104px;
+  height: 133px;
+  margin-left: 173px;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 50px;
+}
+nav li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+nav li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+/*@media query block medium tablet*/
+/* end medium block*/
+/*@media query block small mobile*/
+@media only screen and (max-width: 480px) {
+  .twocolumn section, .threecolumn section, figure {
+    width: 100%;
+    float: none;
+  }
+}
+/*end small block*/

@@ -1,16 +1,74 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+.centerme {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
 body {
 	background: $bgcolor;
 }
 
-h1, h2 {
-	text-color: $maintext;
+header {
+	margin-top: 40px;
 	text-align: center;
+	font-family: $titlefont;
+	@include lillilbox();
 }
 
-p {
-	text-color: $paragraphtext;
+section {
+	margin-top: 30px;
 }
 
-nav, ul, li {
-	text-decoration: none;
+a:active{
+	color: $bgcolor;
 }
+
+
+
+img {
+	width: 250px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+/*@media query block medium tablet*/
+@media only screen and (min-width: 481px) and (max-width: 768) {
+
+}/* end medium block*/
+
+/*@media query block small mobile*/
+@media only screen and (max-width: 480px) and (min-width: 1px) {
+	section, div, p {
+	max-width: 100%;
+	float: none; 
+	
+	}	
+
+}/*end small block*/
+
+
+
+
+
+
+
