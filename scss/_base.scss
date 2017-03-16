@@ -35,6 +35,12 @@ header {
 	@include lillilbox();
 }
 
+p {
+	@include pbox();
+	text-align: center;
+	text-shadow: 2px, 2px, #ff0000;
+}
+
 section {
 	margin-top: 30px;
 }
@@ -43,12 +49,21 @@ a:active{
 	color: $bgcolor;
 }
 
+a {
+	background-color: white;
+	margin-bottom: 10px;
+	font-size: 16pt;
+	text-shadow: 2px, 2px, #ff0000;
+}
+
 
 
 img {
-	width: 250px;
-	height: 200px;
+	width: 432px;
+	height: 432px;
 	margin-left: 20px;
+	margin-top: 10px;
+
 }
 
 /*@media query block medium tablet*/
@@ -58,7 +73,7 @@ img {
 
 /*@media query block small mobile*/
 @media only screen and (max-width: 480px) and (min-width: 1px) {
-	section, div, p {
+	section, img, a, p {
 	max-width: 100%;
 	float: none; 
 	

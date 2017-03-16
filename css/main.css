@@ -390,22 +390,39 @@ header {
   margin-top: 10px;
   padding: 5px; }
 
+p {
+  width: 20%;
+  height: 100px;
+  background: rgba(246, 232, 255, 0.5);
+  margin-left: 577px;
+  margin-top: 10px;
+  padding: 38px;
+  text-align: center;
+  text-shadow: 2px, 2px, #ff0000; }
+
 section {
   margin-top: 30px; }
 
 a:active {
   color: #4b498f; }
 
+a {
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 16pt;
+  text-shadow: 2px, 2px, #ff0000; }
+
 img {
-  width: 250px;
-  height: 200px;
-  margin-left: 20px; }
+  width: 432px;
+  height: 432px;
+  margin-left: 20px;
+  margin-top: 10px; }
 
 /*@media query block medium tablet*/
 /* end medium block*/
 /*@media query block small mobile*/
 @media only screen and (max-width: 480px) and (min-width: 1px) {
-  section, div, p {
+  section, img, a, p {
     max-width: 100%;
     float: none; } }
 /*end small block*/

@@ -34,3 +34,12 @@
 	margin-top: 10px;
 	padding: 5px;
 }
+
+@mixin pbox {
+	width: 20%;
+	height: 100px;
+	background: $boxcolor;
+	margin-left: 577px;
+	margin-top: 10px;
+	padding: 38px;
+}
