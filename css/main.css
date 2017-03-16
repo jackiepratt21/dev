@@ -422,9 +422,27 @@ img {
 /* end medium block*/
 /*@media query block small mobile*/
 @media only screen and (max-width: 480px) and (min-width: 1px) {
-  section, img, a, p {
-    max-width: 100%;
-    float: none; } }
+  section, img {
+    max-width: 96%;
+    float: none; }
+
+  p {
+    width: 20%;
+    height: 100px;
+    background: rgba(246, 232, 255, 0.5);
+    margin-left: 577px;
+    margin-top: 10px;
+    padding: 38px;
+    margin-left: 148px; }
+
+  header {
+    width: 95%;
+    height: 145px;
+    background: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    max-width: 86%; } }
 /*end small block*/
 
 /*# sourceMappingURL=main.css.map */

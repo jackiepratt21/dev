@@ -73,10 +73,18 @@ img {
 
 /*@media query block small mobile*/
 @media only screen and (max-width: 480px) and (min-width: 1px) {
-	section, img, a, p {
-	max-width: 100%;
+	section, img, {
+	max-width: 96%;
 	float: none; 
-	
+	}	
+
+	p {
+		@include pbox();
+		margin-left: 148px;
+	}
+	header{
+		@include lillilbox();
+		max-width: 86%;
 	}	
 
 }/*end small block*/
