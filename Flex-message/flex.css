@@ -1,0 +1,56 @@
+
+		body {
+			background-image: url(sun.png);
+			background-size: cover;
+			
+			
+
+		}
+
+		
+
+		main {
+			display: flex;
+			flex-flow: column;
+			justify-content: space-around;
+		}
+
+h1 {
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+
+.flex-container {
+	width: 100%;
+	flex-flow: wrap;
+}
+
+.flex-container section {
+	background: rgb(185, 211, 232);
+	border: solid 2px black;
+	display: block;
+	flex-direction: row;
+	padding: 10px;
+			width: 30%;
+			font-family: 'Noto Sans', sans-serif;
+			text-align: center;
+			margin-top: 20px;
+			font-size: 75%; 
+
+}
+
+		}
+			
+
+
+		@media only screen and (max-width: 500px) {
+			main {
+			flex-flow: column; 
+			width: 100%;
+		}
+
+		main section {
+			width: 100%;
+		}
+	}
