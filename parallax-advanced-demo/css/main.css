@@ -81,7 +81,7 @@ html {
 }
 
 #group1 .base {
-  background: #644965;
+  background: #D8ADE3;
 }
 
 /* slide under groups 1 and 3 */
@@ -213,6 +213,15 @@ html {
     left: 66%;
   top: 85%;
  transform: translateZ(-10px) scale(0.17);
+    z-index: 13;
+}
+
+.raindrops {
+  width: 20%;
+    left: 48%;
+    bottom: 52%;
+    transform: translateZ(191px) scale(0.4);
+    position: absolute;
     z-index: 13;
 }
 
