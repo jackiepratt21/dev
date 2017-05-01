@@ -434,6 +434,22 @@ img {
 a:hover {
   color: #d8ade3; }
 
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+.navigation li {
+  float: left; }
+.navigation li a {
+  display: block;
+  color: black;
+  margin-left: 400px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
 /*@media query block medium tablet*/
 /* end medium block*/
 /*@media query block small mobile*/
