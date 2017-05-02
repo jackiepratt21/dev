@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 @import url("https://fonts.googleapis.com/css?family=Itim|Leckerli+One");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -384,7 +385,7 @@ body {
 header {
   margin-top: 40px;
   text-align: center;
-  font-family: "Leckerli One", cursive;
+  font-family: "Yeseva One", cursive;
   font-size: 15pt;
   width: 45%;
   height: 178px;
