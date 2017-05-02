@@ -28,12 +28,12 @@
 
 @mixin lillilbox() {
 	width: 45%;
-	height: 145px;
+	height: 178px;
 	background: white;
 	margin-left: 30px;
 	margin-top: 10px;
 	padding: 5px;
-	margin-left: 30%;
+	margin-left: 27%;
 	background: rgba(255, 255, 255, 0.4);
 }
 
@@ -44,3 +44,9 @@
 	font-size: 18pt;
 	
 }
+
+@mixin roundedcorners($roundness) {
+	-webkit-border-radius: $roundness;
+	border-radius: $roundness;
+}
+

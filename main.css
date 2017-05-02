@@ -387,13 +387,15 @@ header {
   font-family: "Leckerli One", cursive;
   font-size: 15pt;
   width: 45%;
-  height: 145px;
+  height: 178px;
   background: white;
   margin-left: 30px;
   margin-top: 10px;
   padding: 5px;
-  margin-left: 30%;
-  background: rgba(255, 255, 255, 0.4); }
+  margin-left: 27%;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 20px;
+  border-radius: 20px; }
 
 p {
   margin: 0 auto;
@@ -411,7 +413,7 @@ a:active {
   color: #4b498f; }
 
 a:visited {
-  color: purple; }
+  color: #212736; }
 
 a:link {
   color: white; }
@@ -429,30 +431,42 @@ img {
   margin-top: 10px; }
 
 .container {
-  background: rgba(227, 155, 169, 0.3);
+  background: rgba(184, 201, 243, 0.7);
   border: solid 1px black;
   padding: 10px;
-  margin: 26px 31%; }
+  margin: 26px 31%;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
 
 a:hover {
   color: black;
   background: #d6a2d2; }
 
-.navigation ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333; }
-.navigation li {
-  float: left; }
-.navigation li a {
-  display: block;
-  color: black;
-  margin-left: 400px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; }
+nav {
+  line-height: 20pt;
+  padding-bottom: 30px;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-left: 48px; }
+
+nav h1 {
+  font-family: "Itim", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17pt;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 2px; }
+
+nav ul li {
+  list-style: none; }
 
 /*@media query block medium tablet*/
 /* end medium block*/
@@ -471,12 +485,12 @@ a:hover {
 
   header {
     width: 45%;
-    height: 145px;
+    height: 178px;
     background: white;
     margin-left: 30px;
     margin-top: 10px;
     padding: 5px;
-    margin-left: 30%;
+    margin-left: 27%;
     background: rgba(255, 255, 255, 0.4);
     max-width: 86%; } }
 /*end small block*/
