@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo|Muli|Nova+Mono');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Itim|Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 
 $bgcolor: rgba(75, 73, 143,1);
 $maintext: rgba(75, 73, 143,1);
 $paragraphtext: #75578F;
-$boxcolor: rgba(246, 232, 255, 0.5);
-$titlefont: 'Abril Fatface', cursive;
+$boxcolor: rgba(246, 232, 255, 0.4);
+$container: rgba(227, 155, 169, 0.3);
+
+
+$titlefont: 'Leckerli One', cursive;
+$pfont: 'Itim', cursive;
+$linkfont: 'Bree Serif', serif;
