@@ -388,7 +388,6 @@ header {
   font-family: "Yeseva One", cursive;
   font-size: 15pt;
   width: 45%;
-  height: 178px;
   background: white;
   margin-left: 30px;
   margin-top: 10px;
@@ -441,34 +440,14 @@ a:hover {
   color: black;
   background: #d6a2d2; }
 
-nav {
-  line-height: 20pt;
-  padding-bottom: 30px;
-  width: 16.66667%;
-  float: left;
-  padding-left: 0.83333%;
-  padding-right: 0.83333%;
-  text-align: left;
-  text-transform: uppercase;
-  margin: 0 auto;
-  margin-left: 48px; }
-
-nav h1 {
-  font-family: "Itim", cursive;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17pt;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: normal;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin-left: 2px; }
-
-nav ul li {
-  list-style: none; }
-
 /*@media query block medium tablet*/
 /* end medium block*/
+@media only screen and (max-width: 1000px) and (min-width: 1px) {
+  h1 {
+    font-size: 20pt; }
+
+  h2 {
+    font-size: 11pt; } }
 /*@media query block small mobile*/
 @media only screen and (max-width: 480px) and (min-width: 1px) {
   section, img {
@@ -484,14 +463,19 @@ nav ul li {
 
   header {
     width: 45%;
-    height: 178px;
     background: white;
     margin-left: 30px;
     margin-top: 10px;
     padding: 5px;
     margin-left: 27%;
     background: rgba(255, 255, 255, 0.4);
-    max-width: 86%; } }
+    max-width: 86%; }
+
+  h1 {
+    font-size: 10pt; }
+
+  h2 {
+    font-size: 9pt; } }
 /*end small block*/
 
 /*# sourceMappingURL=main.css.map */
